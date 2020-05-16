@@ -1,0 +1,19 @@
+
+section.slider img{
+    width: 100%;
+    position: relative;
+}
+section.slider .bollets{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s;
+    left: 50%;
+    bottom: 0;
+    margin-bottom:10px;
+    transform: translate(-50%,-50%);
+}
+.slider:hover .bollets {
+    opacity: 1;
+    visibility: visible;
+}
